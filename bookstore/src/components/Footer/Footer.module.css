@@ -1,0 +1,43 @@
+.footer{
+    padding: 3em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark);
+}
+
+.footer_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer_content ul{
+    display: block;
+    line-height: 30px;
+}
+
+.footer_content ul span{
+    color: var(--white);
+    font-size: 14px;
+}
+
+.footer_content ul i{
+    color: var(--primary-color);
+}
+
+.footer_content ul a,
+.footer p, .footer b{
+    color: var(--white);
+    font-size: 14px;
+}
+
+
+
+.footer_content ul li:nth-of-type(odd){
+    color: var(--primary-color);
+}
+
+.footer_content ul li a{
+    color: var(--white);
+}

@@ -1,0 +1,59 @@
+.services{
+    padding: 5em 0;
+}
+
+.services .mark{
+    color: var(--primary-color);
+}
+
+.services h2{
+    position: relative;
+}
+
+.services h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 5px;
+    width: 100px;
+    border-radius: 50px;
+    background-color: var(--primary-color);
+}
+
+.grid{
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.box{
+    background-color: var(--white);
+    padding: 1rem;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    border-radius: .5rem;
+}
+
+.icon{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.icon span{
+    color: var(--white);
+}
+
+.title{
+    margin-bottom: .5rem;
+}
+
+.content p{
+    font-size: small;
+}

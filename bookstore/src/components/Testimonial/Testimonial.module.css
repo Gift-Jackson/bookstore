@@ -1,0 +1,63 @@
+.container{
+    padding:5em 2em;
+    background-color: var(--white);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    border-radius: 1rem;
+}
+
+.container .mark{
+    color: var(--primary-color);
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.header h1{
+    color: var(--primary-color);
+}
+.wrap{
+    width: 100%;
+}
+
+.card{
+    padding: .5rem;
+    text-align: center;
+    
+}
+
+.card_body{
+    background-color: var(--white);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 1em auto;
+}
+
+.testimonial{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    justify-content: space-between;
+}
+.testimonial i{
+    font-size: 3em;
+    color: var(--primary-color);
+}
+.testimonial p{
+    font-size: small;
+
+}
+.testimonial h3{
+    color: var(--primary-color);
+}
+
+.client{
+}

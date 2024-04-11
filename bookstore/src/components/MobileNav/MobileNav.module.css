@@ -1,0 +1,60 @@
+.mobile_nav{
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+}
+
+.container{
+    background-color: var(--white);
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    position: relative;
+    padding: 6em 2em;
+}
+
+.close_btn{
+    position: absolute;
+    right: 1rem;
+    top: 1em;
+    height: 45px;
+    width: 45px;
+    border: 0;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+.close_btn span{
+    color: var(--white);
+}
+
+.menu ul{
+    display: block;
+}
+.menu ul li a{
+    display: block;
+    padding: 1em;
+    margin-bottom: .5rem;
+}
+
+.menu ul li a:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.menu ul li .active{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.btn{
+    margin-top: 5em;
+    width: 50%;
+    padding: 1em;
+    border: 0;
+    background-color: var(--primary-color);
+    font-size: 1rem;
+    border-radius: 50px;
+}
+.btn span{
+    color: var(--white);
+}
